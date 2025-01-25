@@ -2,9 +2,9 @@ services:
   - type: web
     name: nuxt-app
     env: node
-    region: oregon # اختر الموقع المناسب
+    region: oregon  # اختر الموقع المناسب
     buildCommand: "npm install && npm run build"
-    startCommand: "npm run start"
+    startCommand: "npm run start"  # استخدام `nuxt start` لتفعيل SSR
     envVars:
       - key: DATABASE_URL
         value: "mongodb+srv://wild:Plmoknijb111@cluster0.5jbny.mongodb.net/main?retryWrites=true&w=majority&appName=Cluster0"
