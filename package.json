@@ -10,7 +10,6 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "@netlify/functions": "^3.0.0",
     "@nuxt/icon": "^1.10.3",
     "@pinia/nuxt": "^0.9.0",
     "@prisma/nuxt": "^0.3.0",
