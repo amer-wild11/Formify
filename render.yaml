@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: nuxt-app
+    env: node
+    region: oregon # اختر الموقع المناسب
+    buildCommand: "npm install && npm run build"
+    startCommand: "npm run start"
+    envVars:
+      - key: DATABASE_URL
+        value: "mongodb+srv://wild:Plmoknijb111@cluster0.5jbny.mongodb.net/main?retryWrites=true&w=majority&appName=Cluster0"
+      - key: "CLOUDINARY_CLOUD_NAME"
+        value: "dvrenrmbg"
+      - key: "CLOUDINARY_API_KEY"
+        value: "747164261732659"
+      - key: "CLOUDINARY_API_SECRET"
+        value: "RjNGeurjusBFuuuk4T47FrMdby8"
