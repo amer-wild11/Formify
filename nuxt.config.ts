@@ -5,4 +5,7 @@ export default defineNuxtConfig({
   modules: ["@pinia/nuxt", "@prisma/nuxt", "@nuxt/icon", "@nuxtjs/netlify"],
   css: ["~/assets/scss/main.scss"],
   ssr: true,
+  nitro: {
+    preset: "netlify", // إعداد Netlify
+  },
 });

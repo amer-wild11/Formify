@@ -6,9 +6,8 @@
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
-    "preview": "nuxt preview",
-    "postinstall": "nuxt prepare",
-    "start": "nuxt start"
+    "start": "nuxt preview",
+    "postinstall": "nuxt prepare"
   },
   "dependencies": {
     "@netlify/functions": "^3.0.0",
