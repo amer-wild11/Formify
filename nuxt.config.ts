@@ -3,8 +3,5 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ["@pinia/nuxt", "@prisma/nuxt", "@nuxt/icon"],
   css: ["~/assets/scss/main.scss"],
-  ssr: true, // تأكد من تفعيل SSR
-  nitro: {
-    preset: "netlify", // استخدام Netlify كإعداد مسبق يمكن أن يعمل مع Render كذلك
-  },
+ 
 });
